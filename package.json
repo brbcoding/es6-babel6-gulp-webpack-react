@@ -1,0 +1,29 @@
+{
+  "name": "es6-babel6-gulp-webpack-react",
+  "version": "0.0.0",
+  "description": "https://github.com/brbcoding/es6-babel6-gulp-webpack-react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cody Henshaw <cghensha+npm@gmail.com> (https://github.com/brbcoding)",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.2.0",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "gulp": "^3.9.0",
+    "webpack": "^1.12.6"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  }
+}
